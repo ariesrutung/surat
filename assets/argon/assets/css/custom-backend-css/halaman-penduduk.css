@@ -1,0 +1,59 @@
+    #halPenduduk .alert.alert-success {
+        margin: 5px 20px;
+        padding: 15px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    div#tbl_penduduk_info {
+        color: #8392ab;
+        font-size: .875rem;
+    }
+
+    #halPenduduk div.dataTables_wrapper div.dataTables_paginate ul.pagination li {
+        margin: 0 4px;
+    }
+
+    #halPenduduk .page-item .page-link,
+    #halPenduduk .page-item span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #8392ab;
+        padding: 0;
+        margin: 0 3px;
+        border-radius: 50% !important;
+        width: 36px !important;
+        height: 36px;
+        font-size: 0.875rem;
+        border-radius: 10px !important;
+        margin: 0 !important;
+    }
+
+    #halPenduduk div#tbl_penduduk_paginate ul.pagination li:nth-child(1) a.page-link {
+        font-size: 0;
+    }
+
+    #halPenduduk div#tbl_penduduk_paginate ul.pagination li:nth-last-child(1) a.page-link {
+        font-size: 0;
+    }
+
+    #halPenduduk div#tbl_penduduk_paginate ul.pagination li:nth-child(1) a.page-link:before {
+        content: "<";
+        font-size: 16px;
+    }
+
+    #halPenduduk div#tbl_penduduk_paginate ul.pagination li:nth-last-child(1) a.page-link:before {
+        content: ">";
+        font-size: 16px;
+    }
+
+    #halPenduduk .page-item.active .page-link {
+        color: #fff !important;
+    }
+
+    #halPenduduk table#tbl_penduduk tbody td:nth-last-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
